@@ -1,0 +1,46 @@
+<div class="container_fluid">
+  <div class="row">
+    <header class="col-md-12">
+      <div class="header">
+          <div class="col-md-5">
+            <p>□ □ □ □</p>
+          </div>
+          <div class="col-md-2">
+            <h2>Twitter</h2>
+          </div>
+          <div class="col-md-5">
+            <div class="right-header">
+              <a href="/tweets/new" class="tweet_button">ツイート</a>
+            </div>
+          </div>
+      </div>
+    </header>
+  </div>
+
+  <div class="row">
+    <div class="col-md-offset-4 col-md-4">
+      <p><%= notice %></p>
+      <% @tweets.each do |tweet| %>
+        <div class="tweet_scroll">
+          <div class="tweet_header">
+            <p1>
+              <%= tweet.name %> User_ID Time
+            </p1>
+            <p2>
+              >
+            </p2>
+          </div>
+          <p>
+            <%= tweet.content %>
+          </p>
+          <tr>
+            <td><%= link_to '詳細を確認する', tweet_path(tweet.id) %></td>
+            <td><%= link_to "ツイートを編集する", edit_tweet_path(tweet.id) %></td>
+            <td><%= link_to 'ツイートを削除する', tweet_path(tweet.id), method: :delete ,data: { confirm: '本当に削除していいですか？' } %></td>
+          </tr>
+        </div>
+      <% end %>
+      <h4 class="go-top">↑Topへ戻る</h4>
+    </div>
+  </div>
+</div>
