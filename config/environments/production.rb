@@ -28,7 +28,11 @@ Rails.application.configure do
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
+<<<<<<< HEAD
   config.assets.compile = true
+=======
+  config.assets.compile = false
+>>>>>>> 68602dc2b33b5a6d41371e8f38a118e0bc90f0e1
 
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
 
@@ -59,7 +63,11 @@ Rails.application.configure do
 
   # Use a real queuing backend for Active Job (and separate queues per environment)
   # config.active_job.queue_adapter     = :resque
+<<<<<<< HEAD
   # config.active_job.queue_name_prefix = "twitter_#{Rails.env}"
+=======
+  # config.active_job.queue_name_prefix = "twitter-d_#{Rails.env}"
+>>>>>>> 68602dc2b33b5a6d41371e8f38a118e0bc90f0e1
   config.action_mailer.perform_caching = false
 
   # Ignore bad email addresses and do not raise email delivery errors.

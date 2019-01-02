@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "twitter",
+=======
+  "name": "twitter-d",
+>>>>>>> 68602dc2b33b5a6d41371e8f38a118e0bc90f0e1
   "private": true,
   "dependencies": {
     "bootstrap": "3",
