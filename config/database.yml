@@ -106,5 +106,10 @@ production:
 
 production:
   <<: *default
+<<<<<<< HEAD
   database: db/production.sqlite3
 >>>>>>> 68602dc2b33b5a6d41371e8f38a118e0bc90f0e1
+=======
+  adapter: postgresql
+  database: mydatabase
+>>>>>>> 4b3ecf994d7c953a3358fd1fe46e2c59ae27de50

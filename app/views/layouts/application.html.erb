@@ -21,16 +21,24 @@
   <body>
     <header>
       <ul>
-        <li><a href="#">Bootstrapテキストページ</a></li>
-        <li><a href="#">トップページ</a></li>
+        <li><a href="#">ホーム</a></li>
+        <li><a href="#">通知</a></li>
+        <li><a href="#">メッセージ</a></li>
+        <li><a href="#">見つける</a></li>
       </ul>
     </header>
 
     <%= yield %>
 
     <footer>
-      <p>運営会社DIVE INTO CODE株式会社</p>
-      <p>© 2015-2016 Copyright DIVE INTO CODE Corp.</p>
+      <nav class="navbar navbar-default">
+        <div class="navbar-header">
+          <li class="navbar-toggle collapsed"><a href="#">タイムライン</a></li>
+          <li><a href="#">通知</a></li>
+          <li><a href="#">メッセージ</a></li>
+          <li><a href="#">アカウント</a></li>
+       </div>
+      </nav>
     </footer>
 >>>>>>> 68602dc2b33b5a6d41371e8f38a118e0bc90f0e1
   </body>

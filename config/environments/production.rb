@@ -24,16 +24,21 @@ Rails.application.configure do
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
   # Compress JavaScripts and CSS.
-  config.assets.js_compressor = :uglifier
+  config.assets.js_compressor = Uglifier.new(harmony: true)
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
+<<<<<<< HEAD
 <<<<<<< HEAD
   config.assets.compile = true
 =======
   config.assets.compile = false
 >>>>>>> 68602dc2b33b5a6d41371e8f38a118e0bc90f0e1
 
+=======
+  config.assets.compile = true
+  config.assets.precompile += [/^[a-z0-9]\w+.(css|js)$/]
+>>>>>>> 4b3ecf994d7c953a3358fd1fe46e2c59ae27de50
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.

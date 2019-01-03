@@ -8,7 +8,12 @@
 /.bundle
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+# config/secrets.yml
+
+>>>>>>> 4b3ecf994d7c953a3358fd1fe46e2c59ae27de50
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal

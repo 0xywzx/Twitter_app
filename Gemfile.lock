@@ -90,9 +90,13 @@ GEM
     nokogiri (1.9.1)
       mini_portile2 (~> 2.4.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
     pg (1.1.3)
 =======
 >>>>>>> 68602dc2b33b5a6d41371e8f38a118e0bc90f0e1
+=======
+    pg (1.1.3)
+>>>>>>> 4b3ecf994d7c953a3358fd1fe46e2c59ae27de50
     public_suffix (3.0.3)
     puma (3.12.0)
     rack (2.0.6)
@@ -188,9 +192,13 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
 <<<<<<< HEAD
+<<<<<<< HEAD
   pg (>= 0.18, < 2.0)
 =======
 >>>>>>> 68602dc2b33b5a6d41371e8f38a118e0bc90f0e1
+=======
+  pg
+>>>>>>> 4b3ecf994d7c953a3358fd1fe46e2c59ae27de50
   puma (~> 3.7)
   rails (~> 5.1.6, >= 5.1.6.1)
   sass-rails (~> 5.0)
