@@ -13,6 +13,5 @@ test:
   database: twitter_test
 
 production:
-  <<: *default
-  adapter: postgresql
-  database: mydatabase
+  adapter: pg
+  database: db/production.pg
