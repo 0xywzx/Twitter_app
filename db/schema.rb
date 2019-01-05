@@ -10,7 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-
 ActiveRecord::Schema.define(version: 20181230235514) do
 
   # These are extensions that must be enabled in order to support this database
@@ -20,4 +19,5 @@ ActiveRecord::Schema.define(version: 20181230235514) do
     t.string "name"
     t.string "content"
   end
+
 end
