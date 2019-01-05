@@ -8,18 +8,11 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6', '>= 5.1.6.1'
-<<<<<<< HEAD
+
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
-=======
 # Use sqlite3 as the database for Active Record
-<<<<<<< HEAD
 gem 'sqlite3'
->>>>>>> 68602dc2b33b5a6d41371e8f38a118e0bc90f0e1
-=======
-gem 'sqlite3', groups: %w(test development), require: false
-gem 'pg', groups: %w(production), require: false
->>>>>>> 4b3ecf994d7c953a3358fd1fe46e2c59ae27de50
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets

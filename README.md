@@ -22,7 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-<<<<<<< HEAD
-=======
+
 # Twitter
->>>>>>> 68602dc2b33b5a6d41371e8f38a118e0bc90f0e1

@@ -7,8 +7,4 @@ test:
 production:
   adapter: redis
   url: redis://localhost:6379/1
-<<<<<<< HEAD
   channel_prefix: twitter_production
-=======
-  channel_prefix: twitter-d_production
->>>>>>> 68602dc2b33b5a6d41371e8f38a118e0bc90f0e1
