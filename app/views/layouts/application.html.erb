@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Twitter</title>
-    <%= csrf_meta_tags %>
-
     <meta name="viewport" content="width=device-width">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -11,26 +8,6 @@
   </head>
 
   <body>
-    <header>
-      <ul>
-        <li><a href="#">ホーム</a></li>
-        <li><a href="#">通知</a></li>
-        <li><a href="#">メッセージ</a></li>
-        <li><a href="#">見つける</a></li>
-      </ul>
-    </header>
-
     <%= yield %>
-
-    <footer>
-      <nav class="navbar navbar-default">
-        <div class="navbar-header">
-          <li class="navbar-toggle collapsed"><a href="#">タイムライン</a></li>
-          <li><a href="#">通知</a></li>
-          <li><a href="#">メッセージ</a></li>
-          <li><a href="#">アカウント</a></li>
-       </div>
-      </nav>
-    </footer>
   </body>
 </html>
