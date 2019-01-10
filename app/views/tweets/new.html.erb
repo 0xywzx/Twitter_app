@@ -6,6 +6,16 @@
         <h2><%= link_to "✖", tweets_path %></h2>
       </div>
 
+      <% if @tweet.errors.any? %>
+        <div id="error_explanation">
+          <ul>
+          <% @tweet.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+          </ul>
+        </div>
+      <% end %>
+
       <div class="new_tweet_boby">
           <div class="tweet_name">
             <%= form.label :名前 %>
